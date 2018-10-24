@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-slick",
+  "name": "nodebb-theme-slick-rern",
   "version": "1.2.11",
   "nbbpm": {
     "compatibility": "^1.10.0"
   },
-  "description": "Slick theme for NodeBB",
+  "description": "Slick theme for NodeBB converted for RE:RN",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pichalite/nodebb-theme-slick.git"
+    "url": "git+https://github.com/execfera/nodebb-theme-slick-rern.git"
   },
   "keywords": [
     "nodebb",
@@ -20,13 +20,14 @@
     "name": "pichalite",
     "email": "pichalite.com@gmail.com"
   },
-  "bugs": {
-    "url": "https://github.com/pichalite/nodebb-theme-slick/issues"
-  },
   "maintainers": [
     {
       "name": "pichalite",
       "email": "pichalite.com@gmail.com"
+    },
+    {
+      "name": "Frelia",
+      "email": "admin@frelia.my"
     }
   ]
 }
