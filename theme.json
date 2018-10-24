@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-theme-slick",
-    "name": "Slick theme",
-    "description": "Slick theme for NodeBB",
-    "url": "https://github.com/pichalite/nodebb-theme-slick",
+    "id": "nodebb-theme-slick-rern",
+    "name": "Slick RE:RN theme",
+    "description": "Slick theme for NodeBB converted for RE:RN",
+    "url": "https://github.com/execfera/nodebb-theme-slick-rern",
     "screenshot": "screenshot.png"
 }
