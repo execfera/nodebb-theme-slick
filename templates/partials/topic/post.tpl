@@ -45,11 +45,10 @@
 		<!-- END posts.user.selectedGroups -->
 		</div>
 	</div>
-	<div class="col-sm-10 col-md-10 col-lg-10 post-content" component="post/content">
-		{posts.content}
+	<div class="col-sm-10 col-md-10 col-lg-10 post-content" component="post/content">{posts.content}
 	</div>
 	<!-- IF posts.user.signature -->
-	<div class="col-sm-10 col-md-10 col-lg-10">
+	<div class="col-sm-12 col-md-12 col-lg-12">
 		<div class="post-signature" component="post/signature" data-uid="{posts.user.uid}">
 			{posts.user.signature}
 		</div>
@@ -65,6 +64,7 @@
 			<div class="post-tools">
 				<a component="post/reply" href="#" class="no-select <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">[[topic:reply]]</a>
 				<a component="post/quote" href="#" class="no-select <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">[[topic:quote]]</a>
+				<a component="post/edit" href="#" class="no-select <!-- IF !posts.display_edit_tools -->hidden<!-- ENDIF !posts.display_edit_tools -->">[[topic:edit]]</a>
 			</div>
 
 			<!-- IMPORT partials/topic/post-menu.tpl -->
