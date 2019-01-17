@@ -132,6 +132,14 @@
 
 	<div class="row">
 		<div class="col-xs-12">
+			{signature}
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-xs-12">
 			<h1 class="section-title">[[pages:account/posts, {username}]]</h1>
 
 			<!-- IF !posts.length -->
